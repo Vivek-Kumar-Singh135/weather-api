@@ -1,0 +1,62 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.app-wrap {
+    margin-top: 5%;
+}
+
+button {
+    width: 50px;
+    background: linear-gradient(150deg, limegreen, lightcoral);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main {
+    margin-top: 15%;
+    color: white;
+}
+
+span {
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: 4px 5px black;
+}
+
+#search-box {
+    width: 200px;
+    background-color: rgb(225, 88, 243);
+    color: black;
+    font-weight: bold;
+    border: 2px solid rgb(225, 88, 243);
+    border-radius: 10px 0px 10px 0px;
+    padding: 5px;
+    border-bottom-color: orange;
+}
+
+.temp {
+    margin-top: 18%;
+}
+
+#weather {
+    margin-top: 21%;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#city {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#hi-low {
+    font-size: larger;
+    font-weight: 200;
+}
